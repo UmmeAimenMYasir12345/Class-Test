@@ -1,0 +1,145 @@
+.navbar-nav a:hover{
+    color: orange !important;
+    font-size: 20px !important;
+}
+
+.home{
+    display: flex;
+    margin-left: 20%;
+    margin-top: -12%;
+}
+
+.home img{
+    height: 300px;
+    width: 400px;
+    margin-top: -1%;
+}
+
+.btn1{
+    background-color: orange;
+    border: none;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+    color: white;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+.lefticons ul{
+    list-style-type: none;
+}
+
+
+
+.lefticons{
+    margin-top: 10%;
+    display: flex;
+}
+
+/* About Section */
+
+.img1 img{
+    height: 80px;
+    width: 100px;
+    margin-top: 12%;
+    margin-left: 49%;
+}
+
+.img2 img{
+    height: 200px;
+    width: 390px;
+    margin-left: 38%;
+    margin-top: 4%
+}
+
+.aboutsec p{
+    width: 73%;
+    text-align: center;
+    padding-left: 31%;
+    padding-top: 3%;
+}
+
+/* Vegsec */
+
+.vegetables{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,400px);
+}
+
+.col{
+    border: 2px dashed black;
+}
+
+/* testimonial */
+
+.slidersec1{
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width:994px){
+    .home{
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 35%;
+    }
+
+    .homerightsec h1{
+        text-align: center;
+        margin-left: -45%;
+    }
+
+    .homerightsec p{
+        text-align: center;
+    }
+
+    .homesecbtns{
+        margin-left: 10%;
+    }
+
+    .img2 img{
+        margin-left: 33%;
+    }
+}
+
+@media (max-width:700px){
+     .img2 img{
+        margin-left: 28%;
+     }
+
+     .aboutsec button{
+        margin-left: -20% !important;
+     }
+}
+
+@media (max-width:448px){
+     .homesecbtns{
+        margin-left: -20%;
+     }
+}
+
+@media (max-width:341px){
+      .homesecbtns{
+        margin-left: -50%;
+      }
+}
+
+
+
+
+
