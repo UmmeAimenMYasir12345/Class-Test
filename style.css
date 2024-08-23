@@ -71,12 +71,12 @@
 .vegetables{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(2,400px);
+    grid-template-rows: repeat(1,400px);
 }
 
-.col{
+/* .col{
     border: 2px dashed black;
-}
+} */
 
 /* testimonial */
 
